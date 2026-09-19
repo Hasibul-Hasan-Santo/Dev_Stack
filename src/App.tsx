@@ -18,14 +18,15 @@ function App() {
   
 
   return (
-    <>
+    
+    <div className="bg-white ">
    <Navbar></Navbar>
    <HeroSection></HeroSection>
    <ExploreHeader></ExploreHeader>
    <Suspense fallback={<span>loading</span>}>
    <Mainlayout Data = {Api()}></Mainlayout>
     </Suspense>
-    </>
+    </div>
   )
 }
 

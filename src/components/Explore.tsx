@@ -1,13 +1,16 @@
 const ExploreHeader = () => {
     return (
-        <div className="mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
-                Explore the <span className="text-pink-600">Technologies</span>
-            </h2>
-            <p className="text-gray-500 text-sm mt-1">
-                Pick one technology per category to build your ideal stack.
-            </p>
-        </div>
+     <div className="max-w-7xl mx-auto px-4 py-8 bg-white">
+       <div className="text-left mb-8">
+  <h1 className="text-2xl font-bold text-gray-900 tracking-tight">
+    Explore the <span className="text-purple-600">Technologies</span>
+  </h1>
+  <p className="mt-1 text-gray-500 text-sm">
+    Pick one technology per category to build your ideal stack.
+  </p>
+</div>
+</div>
+        
     );
 };
 

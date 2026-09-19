@@ -16,7 +16,7 @@ const TechCard=({Data}:Datatype)=>{
     const { name, category, description, icon, rating, difficulty, badge } = Data;
     return(
         
-    <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm flex flex-col justify-between">
+    <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm flex flex-col justify-between ">
      
       <div className="flex justify-between items-center mb-4">
         <div className="w-12 h-12 rounded-xl bg-gray-50 flex items-center justify-center p-2">
