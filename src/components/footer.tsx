@@ -21,10 +21,10 @@ const Footer = () => {
            </p>
 
           
-           <div className="flex items-center gap-4 text-xs font-medium text-gray-500">
-             <a href="#github" className="hover:text-gray-900 transition-colors">GitHub</a>
-             <a href="#twitter" className="hover:text-gray-900 transition-colors">Twitter</a>
-             <a href="#linkedin" className="hover:text-gray-900 transition-colors">LinkedIn</a>
+           <div className="flex items-center gap-4 text-xs  font-bold text-gray-500">
+             <a href="#github" className=" hover:text-pink-700 transition-colors duration-700">GitHub</a>
+             <a href="#twitter" className=" hover:text-pink-700 transition-colors duration-700">Twitter</a>
+             <a href="#linkedin" className=" hover:text-pink-700 transition-colors duration-700">LinkedIn</a>
            </div>
          </div>
 
@@ -34,9 +34,9 @@ const Footer = () => {
              PRODUCT
            </h4>
            <ul className="space-y-2.5 text-xs">
-             <li><a href="#home" className="hover:text-gray-900 transition-colors">Home</a></li>
-             <li><a href="#technologies" className="hover:text-gray-900 transition-colors">Technologies</a></li>
-             <li><a href="#projects" className="hover:text-gray-900 transition-colors">Projects</a></li>
+             <li><a href="#home" className=" hover:text-pink-700 transition-colors duration-700">Home</a></li>
+             <li><a href="#technologies" className=" hover:text-pink-700 transition-colors duration-700">Technologies</a></li>
+             <li><a href="#projects" className=" hover:text-pink-700 transition-colors duration-700">Projects</a></li>
            </ul>
          </div>
 
@@ -46,9 +46,9 @@ const Footer = () => {
              COMPANY
            </h4>
            <ul className="space-y-2.5 text-xs">
-             <li><a href="#about" className="hover:text-gray-900 transition-colors">About</a></li>
-             <li><a href="#contact" className="hover:text-gray-900 transition-colors">Contact</a></li>
-             <li><a href="#careers" className="hover:text-gray-900 transition-colors">Careers</a></li>
+             <li><a href="#about" className=" hover:text-pink-700 transition-colors duration-700">About</a></li>
+             <li><a href="#contact" className=" hover:text-pink-700 transition-colors duration-700">Contact</a></li>
+             <li><a href="#careers" className=" hover:text-pink-700 transition-colors duration-700">Careers</a></li>
            </ul>
          </div>
 
@@ -58,8 +58,8 @@ const Footer = () => {
              LEGAL
            </h4>
            <ul className="space-y-2.5 text-xs">
-             <li><a href="#privacy" className="hover:text-gray-900 transition-colors">Privacy Policy</a></li>
-             <li><a href="#terms" className="hover:text-gray-900 transition-colors">Terms of Service</a></li>
+             <li><a href="#privacy" className=" hover:text-pink-700 transition-colors duration-700">Privacy Policy</a></li>
+             <li><a href="#terms" className=" hover:text-pink-700 transition-colors duration-700">Terms of Service</a></li>
            </ul>
          </div>
 

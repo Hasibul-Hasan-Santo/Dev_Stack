@@ -19,7 +19,7 @@ const HeroSection = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto pt-2">
-                            <button className="w-full sm:w-auto bg-linear-to-r from-pink-500 to-rose-500 hover:from-purple-600 hover:to-indigo-600 text-white font-medium px-6 py-3 rounded-xl shadow-md transition-all duration-700">
+                            <button className="w-full sm:w-auto bg-linear-to-r from-pink-500 to-rose-500 hover:from-purple-300 hover:to-indigo-600 text-white font-medium px-6 py-3 rounded-xl shadow-md transition-all duration-700">
                              Explore Technologies
                             </button>
                             <button className="w-full sm:w-auto bg-white border border-gray-200 text-gray-700 hover:text-purple-600 font-medium px-6 py-3 rounded-xl hover:bg-purple-50 hover:border-purple-300 transition-all duration-300">

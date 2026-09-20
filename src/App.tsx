@@ -14,7 +14,7 @@ function App() {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          "https://raw.githubusercontent.com/Hasibul-Hasan-Santo/json-api/main/technologies.json"
+          "api.json"
         );
 
         if (!res.ok) {
