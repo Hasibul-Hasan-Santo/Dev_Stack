@@ -17,7 +17,7 @@ export default function Sidebar({ selectedTech, onRemove, onClearAll }: Sidebart
             <div className="space-y-3 mb-4">
                 {selectedTech.length === 0 ? (
                     <p className="text-sm text-gray-400 text-center py-4">
-                        No technology selected yet.
+                        No Technology selected yet.
                     </p>
                 ) : (
                     selectedTech.map((item) => (

@@ -4,6 +4,7 @@ import Mainlayout from "./components/Mainlayout";
 import Navbar from "./components/Navbar";
 import ExploreHeader from "./components/Explore";
 import "./index.css";
+import Footer from './components/footer'
 
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
           <Mainlayout Data={loading} />
         )}
       </div>
-      
+      <Footer/>
     </div>
   );
 }
