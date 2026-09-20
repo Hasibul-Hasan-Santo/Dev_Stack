@@ -31,7 +31,7 @@ JSX/JavaScript XML is a syntax extension for JavaScript. It allows us to write H
 * State is managed inside a component,it can be updated or change over time using functions, and causes the component to re-render when its value changes.
 
 ### 3. What does the useState hook do, and where did you use it in this project?
-useState is a React Hook that lets functional components hold and update state. In this project, it was used to track the user's selected technologies in the stack select or remove.
+useState is a React Hook that lets functional components hold and update state. In this project, it was used to track the user's selected technologies in the stack select or remove etc.
 
 ### 4. What does the useEffect hook do, and why did you need it to load the JSON data?
 useEffect lets you run side effects  after a component renders. It was needed to fetch the technology list from the external JSON API once when the app loads, ensuring data fetching happens asynchronously without freezing the initial render.
